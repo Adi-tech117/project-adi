@@ -1,0 +1,125 @@
+header{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    img{
+        height: 100px;
+        width: 150px;
+    }
+}
+li{
+    display: inline;
+    margin: 20px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    background-image: url("../image/pattern.jpg") ;
+}
+
+main{
+    background-color: lightblue;
+    margin: 150px 150px 50px;
+    padding: 30px;
+    border: 3px solid grey;
+    border-radius: 30px;
+}
+
+article{
+    border-bottom: 3px solid grey;
+    margin-top: 30px;
+}
+footer{
+    background-color: aquamarine;
+    padding: 30px;
+}
+.text-footer{
+    text-align: center;
+    color: white;
+}
+input{
+    border: none;
+    border-bottom: 3px solid black;
+}
+.container{
+    width: 90%;
+    height: 50%;
+    padding: 2%;
+    background-color: lightblue;
+    margin: 150px 30px 30px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+.container-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.box{
+    padding: 10px;
+    margin: 5px;
+    font-size: 10px;
+}
+.judul{
+    text-align: left;
+    margin: 0;
+}
+.image{
+    width: 100%;
+}
+.sidebar{
+    width: 85%;
+    border: 2px solid grey;
+    padding: 10px;
+}
+/* //mobile  */
+@media(max-width:600px){
+    .container-box{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+/* tablet*/
+@media((min-width: 600px) and (max-width:924px)){
+    .container-box{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+.kolom{
+    background-color: lightblue;
+    display: grid;
+    margin: 150px 30px 10px;
+    grid-template-columns: 1fr 2fr;
+    
+}
+.card{
+    border: 0px solid grey;
+    min-height: 100px;
+    width: 80%;
+    font-size: 50px;
+    text-align: center;
+
+}
+.huruf{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 30px;
+    
+
+}
+.jabatan{
+    font-size: 20px;
+}
+.foto{
+    width: 150px;
+    height: 150px;
+}
